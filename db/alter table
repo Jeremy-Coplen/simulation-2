@@ -1,0 +1,6 @@
+this file is here to pass off alter table command
+
+alter table houses
+add column image text not null default 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/DIN_4844-2_D-P031.svg/1024px-DIN_4844-2_D-P031.svg.png',
+add column montlymortgage integer not null default 0,
+add column desiredrent integer not null default 0
